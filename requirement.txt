@@ -1,0 +1,32 @@
+Customer must login to place order and make payment.
+Without logging in customer only see the product have
+
+Requirement for flask:
+	Flask==1.0
+	Flask-WTF==0.14.2
+	itsdangerous==0.24
+	Jinja2==2.10
+	MarkupSafe==1.0
+	Pillow==5.3.0
+	pycparser==2.18
+	WTForms==2.1
+
+Running with visual code: 
+
+Install Flask: pip install Flask
+Install Flask-mysqldb: pip install flask-mysqldb
+Install Flask-WTF: pip install Flask-WTF
+
+
+
+Running with PyCharm:
+
+Step 1: Install Pycharm
+Step 2: Install Miniconda with default options https://conda.io/miniconda.html Create the new PyCharm project and select conda as the environment manager. Just print new relevant paths by your hands, so project folder and environment folder will be created automatically
+Step 3: Then open Anaconda Prompt from Windows Start Menu.
+Step 4: Run command:
+	activate <project_name>
+	install Flask
+	install flask-mysqldb
+	install Flask-WTF
+
